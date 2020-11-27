@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Log in</title>
+</head>
+<body>
+    <link rel="stylesheet" href="css1.css">
+    <div class="navbar">
+        <a class="active" href="mypage.html"><i class="fa fa-fw fa-home"></i> Home</a>
+        <a href="contact.html"><i class="fa fa-fw fa-envelope"></i> Contact</a>
+        <a href="register.html"><i class="fa fa-fw fa-search"></i> Register</a>
+        <a href="Login.html"><i class="fa fa-fw fa-user"></i> Login</a>
+      </div>
+ <div class="loginbox">  
+    <img src="avatar.jpg"class="avatar" >
+    <h1 style="color:ghostwhite">Log in</h1>
+    <link rel="stylesheet"type="text/css"href="css.css">
+<p id="alt"></p>
+<form method="post" style="color:ghostwhite">
+    <label for="username"style="text-decoration-color: ghostwhite ;">Username:</label><br>
+    <input type="text" id="username" placeholder="Enter Username"><br><br>
+    <label for="username">Password:</label><br>
+    <input type="password" id="password" placeholder="Enter password"><br><br>
+    <input type="button"value="Log in"onclick="respond()"><br><br>
+   
+  <!-- <a href="#" >I forgot my password</a><br>
+    <a href="#">I don't have an account yet</a>
+  -->
+</form> </div>
+<script>
+ 
+    function respond()
+    {
+        var x=document.getElementById('username').value;
+        var y=document.getElementById('password').value;
+        if(x=="sude" && y=="1111")
+        {
+            window.location.assign("file:///C:/Users/Lenovo/Desktop/SUDE/RAS/MyBlogSy/mypage.html");
+        }
+        else
+        {
+          
+            document.getElementById("alt").innerHTML="Wrong Password";
+
+        }
+        
+    }
+    
+</script></body>
+</html>

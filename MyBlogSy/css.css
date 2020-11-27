@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(rt.jpg);
+    background-size: 1550px;
+    background-position: bottom;
+}
+.loginbox {
+    width: 320px;
+    height: 320px;
+    background: #00000091;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+   text-align: center;
+    
+}
+.regbox {
+    width: 320px;
+    height: 425px;
+    background: #00000091;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+   text-align: center;
+    
+}
+
+.avatar
+{
+    width: 100px;
+    height: 100px;
+    border-radius: 80%;
+    top: 45cm;
+    left: 50px;
+}
